@@ -1,0 +1,45 @@
+# Julia
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+deps/deps.jl
+docs/build/
+docs/site/
+Manifest.toml
+
+# Build artifacts
+*.so
+*.dylib
+*.dll
+*.o
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data and results
+*.csv
+*.dat
+*.log
+*.h5
+*.hdf5
+data/*
+!data/.gitkeep
+
+# Plots
+*.png
+*.pdf
+*.svg
+!docs/*.png
+!docs/*.pdf
+
+# Temporary files
+*.tmp
+*.bak
